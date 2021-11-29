@@ -1,0 +1,28 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenedor_cards{
+    width: 40%;
+    display:flexbox;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+li{
+    list-style:none;
+}
+
+.card_negocio{
+    width: 100%;
+    margin: 1rem;
+}
+
+.card_img{
+    width: 100%;
+    height: 20rem;
+}

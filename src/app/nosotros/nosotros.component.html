@@ -1,0 +1,90 @@
+<h2 style="text-align: center;">Desarrollador</h2>
+
+<div class="contenedor_sitio_interes">
+
+    <!--Parte de carousel-->
+<div class="contenedor_carusel">
+    <img class="img_carousel" [src]="image[0]" alt="Jair Alexis">
+ </div>
+
+ <!--Parte de informacion-->
+ <div class="contenedor_info_sitio_interes">
+   <h3>{{titulo_interes}}</h3>
+   <ul>
+     <li *ngFor="let info of informacionSitio">
+       <p>{{info}}</p>
+      </li>
+      <li>Contacto: <a href="mailto:{{correo}}">{{correo}}</a></li>
+   </ul>
+ </div>
+</div>
+
+
+
+
+<div class="contenedor_imgs">
+  <h3>Recabando información </h3>
+  <!--Parte de carousel-->
+<div class="contenedor_carusel2">
+  <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide>
+      <div class="picsum-img-wrapper" >
+          <img class="img_carousel" [src]="images[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+          
+          
+      </div>
+      </ng-template>
+      
+      <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+          <img class="img_carousel" [src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+          
+      </div>
+      </ng-template>
+      
+      <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+          <img class="img_carousel" [src]="images[2]" alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+          
+      </div>
+      </ng-template>
+
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img class="img_carousel" [src]="images[3]" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+            
+        </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+              <img class="img_carousel" [src]="images[4]" alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+              
+          </div>
+          </ng-template>
+
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img class="img_carousel" [src]="images[5]" alt="Random third slide">
+            </div>
+            <div class="carousel-caption">
+                
+            </div>
+            </ng-template>
+
+      
+  </ngb-carousel>
+</div>
+
+</div>
+

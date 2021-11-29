@@ -1,0 +1,61 @@
+#body{
+    background-color: black;
+}
+
+/*estilos para informacion*/
+
+.contenedor_informacion{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.imagen_informacion{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30rem;
+}
+
+.img_sitioInteres{
+    height: 20rem;
+}
+
+.texto_informacion{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+/*estilos para sitio de interes*/
+.contenedor_sitio_interes{
+    display: flex;
+    margin: 2%;
+}
+
+.img_carousel{
+    width: 100%;
+    max-height: 30rem;
+}
+
+.contenedor_carusel{
+    width: 50%;
+}
+
+.contenedor_info_sitio_interes{
+    width: 50%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/*estilos para mapa*/
+.contenedor_mapa{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40rem;
+}
