@@ -1,8 +1,15 @@
 # SiteBarrio
 
+Es un sitio web con varias páginas web con la información del barrio Acosta Soberon. 
+Página inicial: tiene información sobre la información del barrio, la parroquia, lugar de interés, y un mapa de Google maps.
+Catálogo de negocios: tiene información de 5 negocios, tiene una imagen, el nombre, y a que se dedica. 
+Descripción de cada negocio: Una vez que se muestra el catálogo, se puede desplegar la información del negocio.
+Sobre nosotros: tiene la información sobre el desarrollador. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
 ## Development server
+
+Las tecnologías utilizadas fueron Angular, Bootstrap 5. 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
